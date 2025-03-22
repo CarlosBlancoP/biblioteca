@@ -61,7 +61,7 @@ public class Biblioteca {
     }
 
     // Método para mostrar los libros disponibles en la biblioteca
-    public void mostrarLibrosDisponibles() {  // ✅ Nombre correcto
+    public void mostrarLibrosDisponibles() { 
         System.out.println("\nLibros disponibles en la biblioteca:");
         for (Libro libro : libros) {
             if (libro.isDisponible()) {
